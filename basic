@@ -1,0 +1,44 @@
+javascript is used make it interactive
+gives instruction to a computer 
+the computer follows our instruction
+javascript is casesensitive 
+
+wt is variable?
+it is like a container where we can save a value and then use it later
+var,let,const are the keywords use to name a variable in javascript
+remember the var is not used much because it does not follows the scope in javascript
+
+javascript is an camelcase language as 
+where the first word is not captialized
+
+wt are boolean's in javascript?
+they are another type of value, there are only 2 boolean values true or false
+
+the use of if-statements in javascript?
+lets us write multiple groups of code
+and then decide which code to run
+
+strategy for javascript
+1.figure out what steps we need
+2.convert these steps into code
+
+
+what is a function?
+it lets us to reuse the code
+
+scope
+limits where a variable exists
+
+return statement?
+lets us get a value out of a function
+
+parameter=puts a value into a function
+A parameter works in the same way as the variable
+
+the syantax to create an parameter
+we just type the parameter name between the brackets
+rules for parameter names:
+can't use special words example:function
+can't start with a number
+can't use special characters except:$
+A function can have more than one parameter

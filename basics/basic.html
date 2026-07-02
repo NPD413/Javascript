@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Basic</title>
+    <script src="basicscript.js" defer></script>
+</head>
+<body>
+    <button class="button" onclick="
+        console.log('cart quantity:0')">Show quantity</button>
+    <button onclick=" 
+    cartquantity++;
+    //cartquantity=cartquantity+1;
+    console.log(`cart quantity:${cartquantity}`);">
+    Add to cart</button>
+
+    <button onclick="
+    cartquantity=cartquantity+2;
+    //to write the above we can use cartqantity+=2
+    console.log(`cart quantity:${cartquantity}`);
+    ">+2</button>
+    <button onclick="
+    cartquantity=cartquantity+3;
+    console.log(`cart quantity:${cartquantity}`);
+     ">+3</button>
+    <button onclick="
+    cartquantity=0;
+    console.log('cart as reset');
+    console.log(`cart quantity:${cartquantity}`);
+    ">reset cart</button>
+
+    </body>
+</html>
