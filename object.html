@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=0.1">
+    <title>objects</title>
+</head>
+<body>
+    <script>
+        const product={
+           name:'socks',
+           price:1090
+        }// this particular {} will create an object
+
+     console.log(products);
+     console.log(product.name);
+     console.log(product.price);
+
+     product.name='rahul';
+     console.log(product);
+
+     property.newproduct='new';// will create a new parameter into the object list
+
+     delete product.name; //will delete the product
+
+     console.log(typeof(price));// will return the type of data
+     
+
+     const product2={
+        name:'shirt'
+     };
+     console.log(product2.name)// we can axces the objects by this way as one as and also use an method
+     console.log(product2['name'])//this will give the same output as the above
+     //we use bracket notation when the parameter as deliver-product if it has any special character javascript will not be able to note it down 
+     // we can create multiple objects inside an object
+     const product3={
+        name:'rahul',
+        age:18,
+        delivery:{
+            price1:23,
+            price2:43
+        },
+        fun:function greet (){
+            console.log('function inside object');
+        }//we can have an function inside an object to
+     };
+     product2.fun();
+     product3.name;
+
+     console.log(JSON.stringify(product2));//json do not support function and the type is always script
+     const jsonstring=JSON.stringify(product2);
+     console.log(JSON.parse(jasonstring));
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM</title>
+    </head>
+    <body>
+        <p>YouTube Subscribe Button</p>
+        <button onclick="
+        subscribe();
+        "class="subscribe-button">subscribe</button>
+
+        <script>
+
+            function subscribe(){
+            const buttonEle=document.querySelector('.subscribe-button');
+            if(buttonEle.innerHTML ==='subscribe'){
+                buttonEle.innerHTML='subscribed';
+            }else{
+                buttonEle.innerHTML='subscribe';
+            }
+
+            }
+
+            // use innerText for the best practice
+
+            // console.log(document.title);
+            // document.title='changed';// the the title property will be changed
+            // console.log(document.body) //is a very special propert wher we v=can axcess the body of the html and put it in javascript we can html inside javascript ,dom combines javascript and html together
+            
+            // console.log(document.body.innerHTML);// will give all of the el;emts inside the html
+            
+            // document.body.innerHTML='changed';// instead of text we can also creatae an <botton>hello</button>
+            
+            // console.log( document.querySelector('button')) ;// will get the  1st-button element from the  html file
+            
+            // document.querySelector('button') .innerHTML='changed';// this will change the text inside the button to changed
+            
+            // document.querySelector('.sb')// to axcess the secound button we need to assign a class and then modify use it ('.(class name)') the . operqator is used an query selctor in javascript
+            
+            // const buttonElement=document.querySelector('.sb'); // we can assign it to any variable as well
+
+
+
+
+
+            // document.body.innerHTML='hello'// the 
+            // document.title='good job';//will change the title to good job
+        </script>
+    </body>
+</html>

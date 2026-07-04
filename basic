@@ -42,3 +42,64 @@ can't use special words example:function
 can't start with a number
 can't use special characters except:$
 A function can have more than one parameter
+
+what is method?
+object with an function is called as an method in javascript
+eg console.log('hii') // is an method 
+
+what is object in javascript?
+an object in javascript is been created using the{}
+to create multiple parameters and assign a value to each of them
+it is called as property value pair as the property and the value is seperated by the :
+if we axcess an property which is not defined it will result to undefined
+
+objects let's us group multiple values together
+lets's use multiple objects together
+
+to name a variable we use const variablename={} // that's how we can create an varaiable
+
+
+what is json?
+json = javascript object notation 
+it is very similar to javascript
+all string property in json should be given with string ""
+no single '' are allowed 
+similar to javascript but with very less features
+
+why do we use json?
+to send data between two computers which uses two different programing language
+to store data
+
+what is built in json object?
+convert javascript object to json
+
+how to convert?
+JSON.stringify() between the brackets we can give the javascript object that we can use to convert to the json 
+
+we use JSON.stringify(to convert js to json)
+we use JSON.parse(to convert json to js)
+
+next built-in objects in javascript?
+localstorage-saves value more permanently
+variables are temporary
+if we refresh/close the page all the variables are deleted
+localstorage only excepts string.
+to convert to string in 
+localstorage.setItem()
+
+what is dom ?
+stands for document object 
+
+the document.body.innerHTML='hello'; d=changes the entire text that is displayed on the body to hello on the home page
+dom represents /models the webpage 
+
+documents as methods
+innerHTML-used to modify the contents inside the body element 
+docuemnet.querSelector()-lets us get any element from the page and put it inside JavaScript  
+
+
+
+if an html is inside an javascript html will become an object 
+
+
+method=function saved inside an object
